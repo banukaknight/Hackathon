@@ -11,7 +11,7 @@ resources: w3school.com
 //make mysqli connection using external file.
 require_once "1_dbconnect.php";
 $admin_email = "root@localhost.com";
-$admin_password = "php123";
+$admin_password = "banuka";
 $permissiongranted = false;
 
 if( isset( $_POST['email'] ) && isset( $_POST['password'] )  ){
